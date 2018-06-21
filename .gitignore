@@ -1,0 +1,11 @@
+**/*logs
+ve/
+
+*.out
+
+.ipynb_checkpoints/
+
+notebooks/**/*.png
+notebooks/**/*.h5
+notebooks/**/*.dot
+notebooks/**/*.csv.gz
