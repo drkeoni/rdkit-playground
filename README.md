@@ -13,6 +13,7 @@ install (not pip-installable).
 I got around this limitation by doing the following:
 
 ```
+brew tap rdkit/rdkit
 brew install rdkit --with-python3
 mkdir rdkit_wheel
 cp -r /usr/local/lib/python3.6/site-packages/rdkit rdkit_wheel/
